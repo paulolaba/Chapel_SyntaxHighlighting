@@ -1,3 +1,6 @@
+paulo.laba@hotmail.com 
+20230826T15:39:06
+
 # Chapel_SyntaxHighlighting
 A simple (and useful) tutorial for inserting Chapel syntax highlighting into Sublime Text Editor.
 
@@ -24,8 +27,6 @@ After these steps, the Chapel syntax highlighter will be available in the View m
 ![Screenshot from 2023-08-26 15-12-32](https://github.com/paulolaba/Chapel_SyntaxHighlighting/assets/81526258/ea10367e-5970-4207-bdfa-2a94290db163)
 
 This is the first (basic) version. Suggestions for improvement are welcome.
-
-paulo.laba@hotmail.com
 
 
 
