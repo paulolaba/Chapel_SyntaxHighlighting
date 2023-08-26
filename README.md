@@ -1,5 +1,5 @@
-paulo.laba@hotmail.com 
-20230826T15:39:06
+Paulo Laba (paulo.laba@hotmail.com) 
+- 20230826T15:39:06
 
 # Chapel_SyntaxHighlighting
 A simple (and useful) tutorial for inserting Chapel syntax highlighting into Sublime Text Editor.
