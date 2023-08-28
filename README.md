@@ -4,7 +4,7 @@ Paulo Laba (paulo.laba@hotmail.com)
 # Chapel_SyntaxHighlighting
 A simple (and useful) tutorial for inserting Chapel syntax highlighting into Sublime Text Editor (https://www.sublimetext.com/docs/linux_repositories.html).
 
-To insert Chapel syntax highlighting into Sublime Text, the procedure is very easy and can be divided in two steps.
+To insert Chapel syntax highlighting into Sublime Text, the procedure is very easy and can be divided in two steps. The steps below apply to Linux, Mac and Windows.
 
 ### Step 1:
 
