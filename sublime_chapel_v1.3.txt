@@ -1,0 +1,65 @@
+%YAML 1.2
+---
+name: Chapel
+file_extensions:
+  - chpl
+scope: source.chapel
+contexts:
+  main:
+    - match: '"'
+      scope: punctuation.definition.string.begin.chapel
+      push: double_quoted_string
+
+    - match: "'"
+      scope: punctuation.definition.string.begin.chapel
+      push: single_quoted_string
+
+    - match: '/\*'
+      scope: punctuation.definition.comment.begin.chapel
+      push: block_comment
+
+    - match: '//.*$'
+      scope: comment.line.chapel
+
+    - match: '\b(aligned|align|as|atomic|begin|borrowed|break|by|bytes|catch|class|cobegin|
+        |coforall|config|const|continue|defer|delete|dmapped|do|domain|else|enum|except|export|
+        |extern|false|for|forall|foreach|forwarding|if|import|in|index|inline|inout|iter|label|lambda|let|
+        |lifetime|local|locale|module|new|nil|noinit|on|only|operator|otherwise|out|override|owned|
+        |param|pragma|private|prototype|proc|public|range|record|reduce|ref|require|return|scan|select|
+        |serial|shared|single|sparse|subdomain|sync|then|this|throw|throws|true|try|type|union|unmanaged|
+        |use|var|when|where|while|with|yield|zip)\b'
+      scope: keyword.chapel
+
+    - match: '\b(int|uint|bool|real|imag|complex|string|void|c_string)\b'
+      scope: support.type.chapel
+
+    - match: '\b(true|false)\b'
+      scope: constant.language.boolean.chapel
+
+    - match: '\b(-)?[0-9.]+\b'
+      scope: constant.numeric.chapel
+
+  double_quoted_string:
+    - meta_scope: string.quoted.double.chapel
+    - match: '\\.'
+      scope: constant.character.escape.chapel
+    - match: '"'
+      scope: punctuation.definition.string.end.chapel
+      pop: true
+
+  single_quoted_string:
+    - meta_scope: string.quoted.single.chapel
+    - match: '\\.'
+      scope: constant.character.escape.chapel
+    - match: "'"
+      scope: punctuation.definition.string.end.chapel
+      pop: true
+
+  block_comment:
+    - meta_scope: comment.block.chapel
+    - match: '\*/'
+      scope: punctuation.definition.comment.end.chapel
+      pop: true
+    - match: '.+?(?=\*/)'
+      scope: comment.block.chapel
+
