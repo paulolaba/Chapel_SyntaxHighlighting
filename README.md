@@ -16,7 +16,7 @@ Go to Tools menu > Developer > New Syntax
 
 Copy the contents of the file below:
 
-[sublime_chapel_v1.2.txt](https://github.com/paulolaba/chapel/files/12706648/sublime_chapel_v1.2.txt)
+[sublime_chapel_v1.3.txt](https://github.com/paulolaba/chapel/files/12707052/sublime_chapel_v1.3.txt)
 
 Save your new syntax highlighting with the name "Chapel.sublime-syntax".
 
