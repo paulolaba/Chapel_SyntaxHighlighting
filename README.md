@@ -1,5 +1,5 @@
 Paulo Laba (paulo.laba@hotmail.com) 
-- 20230826T15:39:06
+- 20230923T11:25:10
 
 # Chapel: Syntax Highlighting (Sublime Text)
 A simple (and useful) tutorial for inserting Chapel syntax highlighting into Sublime Text Editor (https://www.sublimetext.com/docs/linux_repositories.html).
@@ -16,7 +16,7 @@ Go to Tools menu > Developer > New Syntax
 
 Copy the contents of the file below:
 
-[sublime_chapel.txt](https://github.com/paulolaba/Chapel_SyntaxHighlighting/files/12446465/sublime_chapel.txt)
+[sublime_chapel_v1.2.txt](https://github.com/paulolaba/chapel/files/12706648/sublime_chapel_v1.2.txt)
 
 Save your new syntax highlighting with the name "Chapel.sublime-syntax".
 
